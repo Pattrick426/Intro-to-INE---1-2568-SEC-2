@@ -1,0 +1,19 @@
+    <style>
+        body{
+            font-family: "Kanit", "sans-serif" ;
+            background-color: rgb(195, 236, 248);
+        }
+        span {
+            font-family: "Kanit", "sans-serif" ;
+            background: -webkit-linear-gradient(#dbdbdb,#07c3f1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h1 {
+            background: -webkit-linear-gradient(#000000,#c4f1f3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+        padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
