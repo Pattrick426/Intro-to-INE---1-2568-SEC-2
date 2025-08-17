@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+/* style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #00c3ff;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* ซ้าย-ขวา */
+    align-items: center; /* กึ่งกลางแนวตั้ง */
+    background-color: #5c5c5c;
+    padding: 10px;
+  }
+
+.menu a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 10px; /* เพิ่มพื้นที่คลิก */
+  font-size: 20px;
+}
+
+.menu a:hover {
+  background-color: #858585; /* พื้นหลังเข้มขึ้น */
+  color: #00c3ff;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left colume */
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 20%;
+    background-color: #a7a7a7;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.side a {
+    background-color: #5c5c5c;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 10px; /* เพิ่มพื้นที่คลิก */
+     border-radius: 5px;
+}
+/* Main colume */
+.main {
+    flex: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.main span {
+  display: flex;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+  border: 1px solid #f7f7f7;
+}
+
+.main th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.main thead {
+  background-color: #8b8b8b;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.main tfoot {
+  background-color: #c4c2c3;
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+
+.footer {
+    background-color:#00c3ff;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ------------- Profile -------------*/
+.jpg img {
+  margin-top: 30px;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+/* ------------- register -------------*/
+
+.main label {
+  display: flex;
+  margin-top: 30px;
+}
+.main input {
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.resgister button {
+  font-size: 40px;
+  width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.reg {
+  background-color: rgb(0, 255, 0);
+  color: white;
+  border: none;
+}
+
+.Cancel {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}

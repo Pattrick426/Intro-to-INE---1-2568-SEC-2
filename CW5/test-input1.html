@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>ข้อมูลส่วนตัวของผู้สมัคร</nav>
+    <form>
+        <select>
+            <option value="">คำนำหน้าชื่อ</option>
+            <option value="">นาย</option>
+            <option value="">นางสาว</option>
+            <option value="">นาง</option>
+        </select><br>
+        <label for="Fname">ชื่อ</label><br>
+        <input type="text"><br>
+
+        <label for="Lname">นามสกุล</label><br>
+        <input type="text" name="Lname"><br>
+
+        <label for="13 number">เลขประจำตัวประชาชน (13 หลัก)</label><br>
+        <input type="text" maxlength="13" name="13 number"><br>
+
+        <label for="HBD">วันเดือนปีเกิด</label><br>
+        <input type="date" name="HBD"><br>
+        
+        <label for="age">อายุ (ปี)</label><br>
+        <input type="number"  name="age"><br>
+
+        <label for="gender">เพศ</label><br>
+        <input type="radio" id="ชาย" name="gender">
+        <label for="Male">ชาย</label>
+        <input type="radio" id="หญิง" name="gender">
+        <label for="Female">หญิง</label>
+        <input type="radio" id="ไม่ระบุ" name="gender">
+        <label for="unknown">ไม่ระบุ</label><br>
+
+        <label for="nationality">สัญชาติ</label><br>
+        <input type="text" name="nationality"><br>
+
+        <label for="ethnicity">เชื้อชาติ</label><br>
+        <input type="text" name="ethnicity"><br>
+
+        <label for="religion">ศาสนา</label><br>
+        <input type="text" name="religion"><br>
+
+        <label for="phonenumber">เบอร์โทรศัพท์</label><br>
+        <input type="tel" name="phonenumber"><br>
+
+        <label for="Email">อีเมล</label><br>
+        <input type="email" name="Email"><br>
+
+        <label for="area">ที่อยู่</label><br>
+        <textarea name="area" id=""></textarea>
+        <nav></nav><br>
+        <nav>ข้อมูลการสมัครเรียน</nav>
+        <label for="Degree">วุฒิที่จบมา</label><br>
+        <input type="radio" id="ชาย" name="Degree">
+        <label for="degree">ม.6</label>
+        <input type="radio" id="หญิง" name="Degree">
+        <label for="degree">ปวช.</label>
+        <input type="radio" id="ไม่ระบุ" name="Degree">
+        <label for="degree">ปวส.</label><br>
+
+        <label for="EIC">ชื่อสถานศึกษาที่จบ</label><br>
+        <input type="text" name="EIC"><br>
+
+        <label for="complete">ปีที่จบ</label><br>
+        <input type="number" name="complete"><br>
+
+        <label for="GPA">GPA</label><br>
+        <input type="number" step="0.01" name="GPA"><br>
+
+        <select>
+            <option value="">สาขาที่สมัคร</option>
+            <option value="">IT</option>
+            <option value="">ITI</option>
+            <option value="">INE</option>
+            <option value="">INET</option>
+        </select><br>
+
+        <label for="reason">เหตุผลที่เลือกสาขา</label><br>
+        <textarea name="reason" id=""></textarea>
+        <nav></nav><br>
+        <nav>ประวัติการศึกษา</nav>
+        <label for="EIC1">ประถมศึกษา</label><br>
+        <label for="EIC1-1">สถานศึกษา</label>
+        <input type="text" name="EIC1-1">
+        <label for="EIC1-2">จังหวัด</label>
+        <input type="text" name="EIC1-2">
+        <label for="EIC1-3">ปีที่เข้า</label>
+        <input type="text" name="EIC1-3">
+        <label for="EIC1-4">ปีที่จบ</label>
+        <input type="text" name="EIC1-4">
+        <label for="EIC1-5">วุฒิที่ได้รับ</label>
+        <input type="text" name="EIC1-5">
+        <label for="EIC1-5">GPA</label>
+        <input type="text" name="EIC01-5"><br>
+        <nav></nav><br>
+        <label for="EIC2">มัธยมต้น</label><br>
+        <label for="EIC2-1">สถานศึกษา</label>
+        <input type="text" name="EIC2-1">
+        <label for="EIC2-2">จังหวัด</label>
+        <input type="text" name="EIC2-2">
+        <label for="EIC2-3">ปีที่เข้า</label>
+        <input type="text" name="EIC2-3">
+        <label for="EIC2-4">ปีที่จบ</label>
+        <input type="text" name="EIC2-4">
+        <label for="EIC2-5">วุฒิที่ได้รับ</label>
+        <input type="text" name="EIC2-5">
+        <label for="EIC2-5">GPA</label>
+        <input type="text" name="EIC2-5"><br>
+        <nav></nav><br>
+        <label for="EIC3">มัธยมปลาย/ปวช./ปวส.</label><br>
+        <label for="EIC3-1">สถานศึกษา</label>
+        <input type="text" name="EIC3-1">
+        <label for="EIC3-2">จังหวัด</label>
+        <input type="text" name="EIC3-2">
+        <label for="EIC3-3">ปีที่เข้า</label>
+        <input type="text" name="EIC3-3">
+        <label for="EIC3-4">ปีที่จบ</label>
+        <input type="text" name="EIC3-4">
+        <label for="EIC3-5">วุฒิที่ได้รับ</label>
+        <input type="text" name="EIC3-5">
+        <label for="EIC3-5">GPA</label>
+        <input type="text" name="EIC3-5"><br>
+
+        <nav></nav><br>
+        <nav>เอกสารแนบ</nav>
+        <label for="file13number">แนบไฟล์สำเนาบัตรประชาชน</label><br>
+        <input type="file" name="file13number"><br>
+        <label for="file13number">แนบไฟล์วุฒิการศึกษา (ปพ.1)</label><br>
+        <input type="file" name="file13number"><br>
+        <nav></nav><br>
+        <input type="checkbox" name="accept">
+        <label for="accept">ยอมรับเงื่อนไข</label>
+        <input type="reset" name="accept">
+        <label for="Reset">Reset</label><br>
+
+    </form>
+</body>
+</html>
